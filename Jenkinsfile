@@ -1,3 +1,3 @@
-@Library('puppetpipeline@master') _
+@Library('puppetpipeline@main') _
 
-module( rspec: [ 'Linux', 'Windows' ], peVersions: [ 'pe6' ])
+module( rspec: [ 'Linux', 'Windows' ], peVersions: [ 'pe7' ])
