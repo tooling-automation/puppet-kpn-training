@@ -1,5 +1,5 @@
 ---
 inherit_gem:
   kpn-style:
-    - ruby-2.4-strict.yml
+    - ruby-2.5.yml
 ...
