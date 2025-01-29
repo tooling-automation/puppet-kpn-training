@@ -1,0 +1,8 @@
+---
+:backends:
+  - yaml
+:yaml:
+  :datadir: ./spec/hieradata/beaker
+:hierarchy:
+  - "%{facts.kernel}"
+  - common

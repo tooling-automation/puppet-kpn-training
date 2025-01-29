@@ -1,0 +1,12 @@
+#------------------------------------------------------------------------------
+# kpnyaml
+#------------------------------------------------------------------------------
+---
+kpnyaml::customer_name: 'kpn'
+kpnyaml::customer_environment: 'development'
+kpnyaml::customer_zone: 'NL'
+kpnyaml::application_name: 'testing'
+kpnyaml::application_role: 'testing'
+kpnyaml::application_instance: 99
+kpnyaml::datacenter: 'nlams1'
+...

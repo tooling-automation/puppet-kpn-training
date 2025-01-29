@@ -1,0 +1,19 @@
+---
+fixtures:
+  repositories:
+    acl: 'git@github.tooling.kpn.org:kpn-puppet-forge/puppet-puppetlabs-acl.git'
+    chocolatey: 'git@github.tooling.kpn.org:kpn-puppet-forge/puppet-puppetlabs-chocolatey.git'
+    concat: 'git@github.tooling.kpn.org:kpn-puppet-forge/puppet-puppetlabs-concat.git'
+    kpn_stack: 'git@github.tooling.kpn.org:kpn-puppet-forge/puppet-kpn-kpn_stack.git'
+    network: 'git@github.tooling.kpn.org:kpn-puppet-forge/puppet-kpn-network.git'
+    powershell: 'git@github.tooling.kpn.org:kpn-puppet-forge/puppet-puppetlabs-powershell.git'
+    profile_sslcertificate: 'git@github.tooling.kpn.org:kpn-puppet-forge/puppet-kpn-profile_sslcertificate.git'
+    profile_windows: 'git@github.tooling.kpn.org:kpn-puppet-forge/puppet-kpn-profile_windows.git'
+    pwshlib: 'git@github.tooling.kpn.org:kpn-puppet-forge/puppet-puppetlabs-pwshlib.git'
+    registry: 'git@github.tooling.kpn.org:kpn-puppet-forge/puppet-puppetlabs-registry.git'
+    sslcertificate: 'git@github.tooling.kpn.org:kpn-puppet-forge/puppet-kpn-sslcertificate.git'
+    stdlib: 'git@github.tooling.kpn.org:kpn-puppet-forge/puppet-puppetlabs-stdlib'
+    utils: 'git@github.tooling.kpn.org:kpn-puppet-forge/puppet-kpn-utils'
+  symlinks:
+    profile_empty_template: '#{source_dir}'
+

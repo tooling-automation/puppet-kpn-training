@@ -1,0 +1,6 @@
+---
+profile_empty_template::example1: false
+
+profile_empty_template::certificate_hash:  '0123456789ABCDEF0123456789ABCDEF01234567'  # fake hash
+profile_empty_template::certificate_store: 'My'
+...
