@@ -1,5 +1,5 @@
 # profile for an empty  template
-class profile_empty_template::windows::something
+class pdk_training::windows::something
 {
   # todo: your code here
 }

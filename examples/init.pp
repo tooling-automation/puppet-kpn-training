@@ -9,4 +9,4 @@
 # Learn more about module testing here:
 # https://docs.puppet.com/guides/tests_smoke.html
 #
-include ::profile_empty_template
+include pdk_training
