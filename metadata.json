@@ -1,21 +1,25 @@
 {
-  "name": "puppet-kpn-profile_empty_template",
+  "name": "puppet-pdk-training",
   "version": "0.0.0",
   "author": "KPN",
   "license": "proprietary",
-  "kpn_quality_label": "K",
+  "kpn_quality_label": "B",
   "kpn_module_owner": "Product Owner Platforms",
-  "kpn_module_support": "Tooling and Automation team, Squad OMT",
-  "summary": "This profile manages something (empty template)",
-  "source": "https://github.tooling.kpn.org/tooling-automation/puppet-kpn-profile_empty_template.git",
-  "project_page": "https://github.tooling.kpn.org/tooling-automation/puppet-kpn-profile_empty_template",
-  "issues_url": "https://github.tooling.kpn.org/tooling-automation/puppet-kpn-profile_empty_template/issues",
-  "tags": ["profile_empty_template", "Windows", "Linux", "empty"],
+  "kpn_module_support": "Tooling and Automation team, Puppet Squad",
+  "summary": "This profile is for PDK training",
+  "source": "https://github.tooling.kpn.org/tooling-automation/puppet-pdk-training.git",
+  "project_page": "https://github.tooling.kpn.org/tooling-automation/puppet-pdk-training",
+  "issues_url": "https://github.tooling.kpn.org/tooling-automation/puppet-pdk-training/issues",
+  "tags": [
+    "Linux",
+    "puppet-pdk-training",
+    "kpn_quality_label: B",
+    "kpn_module_owner: Tooling and automation",
+    "kpn_module_support: Tooling and Automation team, Puppet Squad"],
   "operatingsystem_support": [
     {
       "operatingsystem": "Windows",
       "operatingsystemrelease": [
-        "2012 R2",
         "2016",
         "2019",
         "2022"
@@ -24,14 +28,14 @@
     {
       "operatingsystem": "Redhat",
       "operatingsystemrelease": [
-        "7",
-        "8"
+        "8",
+        "9"
       ]
     }
 
   ],
   "dependencies": [
-    { "name": "kpn/kpn_stack", "version_requirement": ">=2.6.0 <5.0.0" },
-    { "name": "puppetlabs/stdlib", "version_requirement": ">=4.6.0 <6.0.0" }
+    { "name": "kpn/kpn_stack", "version_requirement": ">=3.0.0 <5.0.0" },
+    { "name": "puppetlabs/stdlib", "version_requirement": ">=9.0.0 <10.0.0" }
   ]
 }
