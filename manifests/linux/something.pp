@@ -1,5 +1,5 @@
 # profile for an empty  template
-class profile_empty_template::linux::something
+class pdk_training::linux::something
 {
   # todo: your code here
 }
