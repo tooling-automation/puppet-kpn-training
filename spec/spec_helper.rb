@@ -2,9 +2,6 @@
 
 require 'puppetlabs_spec_helper/module_spec_helper'
 
-# rubocop:disable Style/MixinUsage
-include RspecPuppetFacts
-# rubocop:enable Style/MixinUsage
 
 RSpec.configure do |c|
   c.fail_fast = true
