@@ -11,8 +11,8 @@ describe 'pdk_training' do
       when %r{redhat}
         it { is_expected.to contain_package('httpd').with_ensure('installed') }
       when %r{windows}
-        it { is_expected.to contain_class('pdk_training::windows::install') }
-        it { is_expected.to contain_file('c:/Management/pdk_training').with_ensure('directory') }
+        it { is_expected.to contain_class('pdk_training::windows::install') }  
+        it { is_expected.to contain_file('c:/Management/pdk_training').with_ensure('directory') }  
       end
     end
 
