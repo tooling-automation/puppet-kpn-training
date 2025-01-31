@@ -9,12 +9,11 @@ describe 'pdk_training' do
 
       case os
       when %r{redhat}
-        it { is_expected.to contain_class('pdk_training::linux::install') }
-        it { is_expected.to contain_file('/usr/local/sbin/pdk_training').with_ensure('directory') }
+        it { is_expected.to contain_package('httpd').with_ensure('installed') }
       when %r{windows}
         it { is_expected.to contain_class('pdk_training::windows::install') }
         it { is_expected.to contain_file('c:/Management/pdk_training').with_ensure('directory') }
       end
     end
-  end
+
 end
