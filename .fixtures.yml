@@ -5,6 +5,7 @@ fixtures:
     chocolatey: 'git@github.tooling.kpn.org:kpn-puppet-forge/puppet-puppetlabs-chocolatey.git'
     concat: 'git@github.tooling.kpn.org:kpn-puppet-forge/puppet-puppetlabs-concat.git'
     kpn_stack: 'git@github.tooling.kpn.org:kpn-puppet-forge/puppet-kpn-kpn_stack.git'
+    kpnyaml: 'git@github.tooling.kpn.org:kpn-puppet-forge/puppet-kpn-kpnyaml.git'
     network: 'git@github.tooling.kpn.org:kpn-puppet-forge/puppet-kpn-network.git'
     powershell: 'git@github.tooling.kpn.org:kpn-puppet-forge/puppet-puppetlabs-powershell.git'
     profile_sslcertificate: 'git@github.tooling.kpn.org:kpn-puppet-forge/puppet-kpn-profile_sslcertificate.git'
@@ -15,5 +16,4 @@ fixtures:
     stdlib: 'git@github.tooling.kpn.org:kpn-puppet-forge/puppet-puppetlabs-stdlib'
     utils: 'git@github.tooling.kpn.org:kpn-puppet-forge/puppet-kpn-utils'
   symlinks:
-    profile_empty_template: '#{source_dir}'
-
+    pdk_training: '#{source_dir}'

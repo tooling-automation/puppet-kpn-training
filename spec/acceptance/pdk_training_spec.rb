@@ -3,12 +3,12 @@
 require 'spec_helper_acceptance'
 require 'facter'
 
-describe 'profile_empty_template class', if: fact('osfamily') == 'windows' do
+describe 'pdk_training class' do
   context 'with default parameters' do
     # Using puppet_apply as a helper
     it 'works idempotently with no errors' do
       pp = <<-PP
-      include ::profile_empty_template
+      include ::pdk_training
       PP
 
       # Run it twice and test for idempotency
